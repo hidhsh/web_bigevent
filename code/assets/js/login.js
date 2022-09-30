@@ -74,7 +74,7 @@ $(function () {
                 //将登录获得的token字符串放在localstorage
                 localStorage.setItem('token',res.token);
                 //切换到后台
-                location.href='/index.html'
+                location.href='/code/index.html'
             }
         })
     })
